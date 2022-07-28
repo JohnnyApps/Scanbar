@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097A41752892526C0009797C /* ScanbarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097A41742892526C0009797C /* ScanbarApp.swift */; };
+		097A41772892526C0009797C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097A41762892526C0009797C /* ContentView.swift */; };
+		097A41792892526E0009797C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097A41782892526E0009797C /* Assets.xcassets */; };
+		097A417D2892526E0009797C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097A417C2892526E0009797C /* Preview Assets.xcassets */; };
+		097A41872892526E0009797C /* ScanbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097A41862892526E0009797C /* ScanbarTests.swift */; };
+		097A41912892526E0009797C /* ScanbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097A41902892526E0009797C /* ScanbarUITests.swift */; };
+		097A41932892526E0009797C /* ScanbarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097A41922892526E0009797C /* ScanbarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		097A41832892526E0009797C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 097A41692892526C0009797C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 097A41702892526C0009797C;
+			remoteInfo = Scanbar;
+		};
+		097A418D2892526E0009797C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 097A41692892526C0009797C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 097A41702892526C0009797C;
+			remoteInfo = Scanbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097A41712892526C0009797C /* Scanbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scanbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		097A41742892526C0009797C /* ScanbarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanbarApp.swift; sourceTree = "<group>"; };
+		097A41762892526C0009797C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		097A41782892526E0009797C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		097A417A2892526E0009797C /* Scanbar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scanbar.entitlements; sourceTree = "<group>"; };
+		097A417C2892526E0009797C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		097A41822892526E0009797C /* ScanbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		097A41862892526E0009797C /* ScanbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanbarTests.swift; sourceTree = "<group>"; };
+		097A418C2892526E0009797C /* ScanbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		097A41902892526E0009797C /* ScanbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanbarUITests.swift; sourceTree = "<group>"; };
+		097A41922892526E0009797C /* ScanbarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanbarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		097A416E2892526C0009797C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097A417F2892526E0009797C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097A41892892526E0009797C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097A41682892526C0009797C = {
+			isa = PBXGroup;
+			children = (
+				097A41732892526C0009797C /* Scanbar */,
+				097A41852892526E0009797C /* ScanbarTests */,
+				097A418F2892526E0009797C /* ScanbarUITests */,
+				097A41722892526C0009797C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		097A41722892526C0009797C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				097A41712892526C0009797C /* Scanbar.app */,
+				097A41822892526E0009797C /* ScanbarTests.xctest */,
+				097A418C2892526E0009797C /* ScanbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		097A41732892526C0009797C /* Scanbar */ = {
+			isa = PBXGroup;
+			children = (
+				097A41742892526C0009797C /* ScanbarApp.swift */,
+				097A41762892526C0009797C /* ContentView.swift */,
+				097A41782892526E0009797C /* Assets.xcassets */,
+				097A417A2892526E0009797C /* Scanbar.entitlements */,
+				097A417B2892526E0009797C /* Preview Content */,
+			);
+			path = Scanbar;
+			sourceTree = "<group>";
+		};
+		097A417B2892526E0009797C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				097A417C2892526E0009797C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		097A41852892526E0009797C /* ScanbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				097A41862892526E0009797C /* ScanbarTests.swift */,
+			);
+			path = ScanbarTests;
+			sourceTree = "<group>";
+		};
+		097A418F2892526E0009797C /* ScanbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				097A41902892526E0009797C /* ScanbarUITests.swift */,
+				097A41922892526E0009797C /* ScanbarUITestsLaunchTests.swift */,
+			);
+			path = ScanbarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		097A41702892526C0009797C /* Scanbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097A41962892526E0009797C /* Build configuration list for PBXNativeTarget "Scanbar" */;
+			buildPhases = (
+				097A416D2892526C0009797C /* Sources */,
+				097A416E2892526C0009797C /* Frameworks */,
+				097A416F2892526C0009797C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scanbar;
+			productName = Scanbar;
+			productReference = 097A41712892526C0009797C /* Scanbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		097A41812892526E0009797C /* ScanbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097A41992892526E0009797C /* Build configuration list for PBXNativeTarget "ScanbarTests" */;
+			buildPhases = (
+				097A417E2892526E0009797C /* Sources */,
+				097A417F2892526E0009797C /* Frameworks */,
+				097A41802892526E0009797C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				097A41842892526E0009797C /* PBXTargetDependency */,
+			);
+			name = ScanbarTests;
+			productName = ScanbarTests;
+			productReference = 097A41822892526E0009797C /* ScanbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		097A418B2892526E0009797C /* ScanbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097A419C2892526E0009797C /* Build configuration list for PBXNativeTarget "ScanbarUITests" */;
+			buildPhases = (
+				097A41882892526E0009797C /* Sources */,
+				097A41892892526E0009797C /* Frameworks */,
+				097A418A2892526E0009797C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				097A418E2892526E0009797C /* PBXTargetDependency */,
+			);
+			name = ScanbarUITests;
+			productName = ScanbarUITests;
+			productReference = 097A418C2892526E0009797C /* ScanbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		097A41692892526C0009797C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					097A41702892526C0009797C = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					097A41812892526E0009797C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 097A41702892526C0009797C;
+					};
+					097A418B2892526E0009797C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 097A41702892526C0009797C;
+					};
+				};
+			};
+			buildConfigurationList = 097A416C2892526C0009797C /* Build configuration list for PBXProject "Scanbar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 097A41682892526C0009797C;
+			productRefGroup = 097A41722892526C0009797C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				097A41702892526C0009797C /* Scanbar */,
+				097A41812892526E0009797C /* ScanbarTests */,
+				097A418B2892526E0009797C /* ScanbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		097A416F2892526C0009797C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097A417D2892526E0009797C /* Preview Assets.xcassets in Resources */,
+				097A41792892526E0009797C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097A41802892526E0009797C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097A418A2892526E0009797C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		097A416D2892526C0009797C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097A41772892526C0009797C /* ContentView.swift in Sources */,
+				097A41752892526C0009797C /* ScanbarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097A417E2892526E0009797C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097A41872892526E0009797C /* ScanbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097A41882892526E0009797C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097A41912892526E0009797C /* ScanbarUITests.swift in Sources */,
+				097A41932892526E0009797C /* ScanbarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		097A41842892526E0009797C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 097A41702892526C0009797C /* Scanbar */;
+			targetProxy = 097A41832892526E0009797C /* PBXContainerItemProxy */;
+		};
+		097A418E2892526E0009797C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 097A41702892526C0009797C /* Scanbar */;
+			targetProxy = 097A418D2892526E0009797C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		097A41942892526E0009797C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		097A41952892526E0009797C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		097A41972892526E0009797C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Scanbar/Scanbar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scanbar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksplus.Scanbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		097A41982892526E0009797C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Scanbar/Scanbar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scanbar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksplus.Scanbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		097A419A2892526E0009797C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksplus.ScanbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scanbar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scanbar";
+			};
+			name = Debug;
+		};
+		097A419B2892526E0009797C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksplus.ScanbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scanbar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scanbar";
+			};
+			name = Release;
+		};
+		097A419D2892526E0009797C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksplus.ScanbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scanbar;
+			};
+			name = Debug;
+		};
+		097A419E2892526E0009797C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksplus.ScanbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scanbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097A416C2892526C0009797C /* Build configuration list for PBXProject "Scanbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097A41942892526E0009797C /* Debug */,
+				097A41952892526E0009797C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097A41962892526E0009797C /* Build configuration list for PBXNativeTarget "Scanbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097A41972892526E0009797C /* Debug */,
+				097A41982892526E0009797C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097A41992892526E0009797C /* Build configuration list for PBXNativeTarget "ScanbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097A419A2892526E0009797C /* Debug */,
+				097A419B2892526E0009797C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097A419C2892526E0009797C /* Build configuration list for PBXNativeTarget "ScanbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097A419D2892526E0009797C /* Debug */,
+				097A419E2892526E0009797C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 097A41692892526C0009797C /* Project object */;
+}
